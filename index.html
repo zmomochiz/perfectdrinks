@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot Bartender</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png">
+            <h1>Robot Bartender</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">เกี่ยวกับ</a></li>
+                <li><a href="#how-to-use">วิธีใช้</a></li>
+                <li><a href="#menu">เมนู</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    
+    <main>
+        <section id="about" class="hero">
+            <div class="hero-content">
+                <h2 id="title">Robot</h2>
+                <h2 id="title">Bartender</h2>
+                <p id="description">      Robot Bartender หรือ เครื่องผสมเครื่องดื่มอัตโนมัติ คือ นวัตกรรมที่พัตนา ขึ้นเพื่อเพื่มความสะดวกสะบายและความน่าสนใจในการทำเครื่องดื่มโดเครื่องนี้สามารถ
+                    ทำเครื่องดื่มได้ในเวลาไม่นานและมีเมนูที่หลากหลายให้เลือก อีกทั้งลูกค้ายังสามารถจ่าย เงินได้แบบออนไลน์ซึ่งทั้งง่ายและรวดเร็ว</p>
+            </div>
+            <div class="hero-image">
+                <img src="hero-image.png" alt="Robot Bartender Machine">
+            </div>
+        </section>
+        
+        <section id="how-to-use" class="instructions">
+            <h2>วิธีใช้ (หลักการทำงาน)</h2>
+            <ol>
+                <li>เลือกเมนูที่ต้องการ</li>
+                <li>ใส่แก้วในตำแหน่งที่กำหนด</li>
+                <li>เครื่องจะทำการผสมเครื่องดื่มโดยอัตโนมัติ</li>
+                <li>รับแก้วและสนุกกับเครื่องดื่มของคุณ</li>
+            </ol>
+        </section>
+        
+        <section id="menu" class="drink-menu">
+            <h2>เมนูเครื่องดื่ม</h2>
+            <div class="menu-items">
+                <div class="drink-item">Cocktail</div>
+                <div class="drink-item">Mocktail</div>
+                <div class="drink-item">Juice</div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p id="footer-text">2025 Perfect Drink All Rights Reserved.</p>
+    </footer>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef3f7;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #587792;
+            color: white;
+            padding: 15px 20px;
+            flex-wrap: wrap;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        .language-switch button {
+            margin-left: 10px;
+            padding: 5px 10px;
+            border: none;
+            cursor: pointer;
+        }
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px;
+            background: #d4e1f0;
+            flex-wrap: wrap;
+        }
+        .hero-content {
+            max-width: 50%;
+        }
+        .hero-image img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .instructions, .drink-menu {
+            padding: 20px;
+        }
+        .menu-items {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .drink-item {
+            background: #ddd;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            width: 100px;
+        }
+        footer {
+            text-align: center;
+            background: #587792;
+            color: white;
+            padding: 10px;
+        }
+        
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .hero {
+                flex-direction: column;
+                padding: 20px;
+            }
+            .hero-content, .hero-image {
+                max-width: 100%;
+                text-align: center;
+            }
+            .menu-items {
+                flex-direction: column;
+            }
+            .drink-item {
+                margin-bottom: 15px;
+                width: auto;
+            }
+        }
+    </style>
+</body>
+</html>
