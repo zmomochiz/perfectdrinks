@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="logo">
-            <img src="logo.png">
+            <img src="img/logo.png" alt="Logo">
             <h1>Robot Bartender</h1>
         </div>
         <nav>
@@ -17,40 +17,91 @@
                 <li><a href="#about">เกี่ยวกับ</a></li>
                 <li><a href="#how-to-use">วิธีใช้</a></li>
                 <li><a href="#menu">เมนู</a></li>
+                <li><a href="#team">สมาชิก</a></li>
             </ul>
         </nav>
-
     </header>
     
     <main>
-        <section id="about" class="hero">
+        <section id="about" class="hero fade-in">
             <div class="hero-content">
-                <h2 id="title">Robot</h2>
-                <h2 id="title">Bartender</h2>
-                <p id="description">      Robot Bartender หรือ เครื่องผสมเครื่องดื่มอัตโนมัติ คือ นวัตกรรมที่พัตนา ขึ้นเพื่อเพื่มความสะดวกสะบายและความน่าสนใจในการทำเครื่องดื่มโดเครื่องนี้สามารถ
-                    ทำเครื่องดื่มได้ในเวลาไม่นานและมีเมนูที่หลากหลายให้เลือก อีกทั้งลูกค้ายังสามารถจ่าย เงินได้แบบออนไลน์ซึ่งทั้งง่ายและรวดเร็ว</p>
+                <h2>Robot</h2>
+                <h2>Bartender</h2>
+                <p>Robot Bartender หรือ เครื่องผสมเครื่องดื่มอัตโนมัติ คือ นวัตกรรมที่พัฒนาขึ้นเพื่อเพิ่มความสะดวกสะบายและความน่าสนใจในการทำเครื่องดื่ม...</p>
             </div>
             <div class="hero-image">
-                <img src="hero-image.png" alt="Robot Bartender Machine">
+                <img src="img/Model_front.png" alt="Robot Bartender">
             </div>
         </section>
         
-        <section id="how-to-use" class="instructions">
+        <section id="how-to-use" class="instructions fade-in">
             <h2>วิธีใช้ (หลักการทำงาน)</h2>
             <ol>
-                <li>เลือกเมนูที่ต้องการ</li>
-                <li>ใส่แก้วในตำแหน่งที่กำหนด</li>
-                <li>เครื่องจะทำการผสมเครื่องดื่มโดยอัตโนมัติ</li>
-                <li>รับแก้วและสนุกกับเครื่องดื่มของคุณ</li>
+                <h3>1.) กดเริ่มต้น</h3>
+                <p>- หน้าแรกที่แสดงผลบนหน้าจอ จะเป็นภาพเริ่มต้นที่ตั้งค่าไว้ สามารถกดที่ตำแหน่งใดก็ได้ เพื่อให้หน้าจอแสดงหน้าต่อไปซึ่งเป็นหน้าเมนู</p>
+                <h3>2.) เลือกเมนูเครื่องดื่ม</h3>
+                <p>- ในหน้าเมนูสามารถกดเลือกเครื่องดื่มที่ชอบได้ทันที</p>
+                <h3>3.) เลือกปริมาณความหวาน</h3>
+                <p>- เมื่อเลือกเครื่องดื่มแล้ว สามารถเลือกระดับความหวานของเครื่องดื่มได้ในหน้าถัดไป โดยหน้าจอจะแสดงข้อมูลปริมาตรส่วนผสมของเครื่องดื่มนั้นในแต่ละระดับความหวาน</p>
+                <h3>4.) การจ่ายเงิน</h3>
+                <p>- การจ่ายเงินจะเป็นแบบสแกน QR CODE ของ PromptPay และ TrueMoney</p>
+                <h3>5.) รับเครื่องดื่ม</h3>
+                <p>- เมื่อจ่ายเงินเสร็จแล้ว สามาถรอรับเครื่องดื่มได้</p>
             </ol>
         </section>
         
-        <section id="menu" class="drink-menu">
+        <section id="menu" class="drink-menu fade-in">
             <h2>เมนูเครื่องดื่ม</h2>
             <div class="menu-items">
-                <div class="drink-item">Cocktail</div>
-                <div class="drink-item">Mocktail</div>
-                <div class="drink-item">Juice</div>
+                <div class="menu-item fade-in">
+                    <img src="img/drink1.jpg" alt="Cocktail">
+                    <h3>Cocktail</h3>
+                    <p>ดื่มแล้วรู้สึกสดชื่นและมีชีวิตชีวา</p>
+                </div>
+                <div class="menu-item fade-in">
+                    <img src="img/drink2.jpg" alt="Mocktail">
+                    <h3>Mocktail</h3>
+                    <p>ดื่มแล้วรู้สึกผ่อนคลาย เหมาะสำหรับทุกวัย</p>
+                </div>
+                <div class="menu-item fade-in">
+                    <img src="img/drink3.jpg" alt="Juice">
+                    <h3>Juice</h3>
+                    <p>ดื่มแล้วรู้สึกสดชื่นและมีพลังงาน</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- สมาชิกในกลุ่ม -->
+        <section id="team" class="team fade-in">
+            <h2>สมาชิกในกลุ่ม</h2>
+            <div class="team-members">
+                <!-- ตัวอย่างสมาชิก -->
+                <div class="team-member fade-in">
+                    <img src="img/member1.jpg" alt="Member 1">
+                    <h3>ชื่อสมาชิก 1</h3>
+                    <p>หน้าที่: ผสมเครื่องดื่ม</p>
+                    <p>ความสามารถ: มีความเชี่ยวชาญในการสร้างสูตรเครื่องดื่มใหม่</p>
+                    <p>ติดต่อ: <a href="https://www.instagram.com/member1" target="_blank">Instagram</a></p>
+                </div>
+                <div class="team-member fade-in">
+                    <img src="img/member2.jpg" alt="Member 2">
+                    <h3>ชื่อสมาชิก 2</h3>
+                    <p>หน้าที่: ออกแบบระบบ</p>
+                    <p>ความสามารถ: มีความเชี่ยวชาญในการออกแบบระบบอัตโนมัติ</p>
+                    <p>ติดต่อ: <a href="https://www.facebook.com/member2" target="_blank">Facebook</a></p>
+                </div>
+                <!-- เพิ่มสมาชิกที่เหลือ -->
+                <!-- สมาชิก 3-10 -->
+            </div>
+        </section>
+
+        <!-- ช่องทางการติดต่อร้าน -->
+        <section id="contact" class="contact fade-in">
+            <h2>ช่องทางการติดต่อ</h2>
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="mailto:contact@robotbartender.com">contact@robotbartender.com</a></p>
+                <p><strong>Facebook:</strong> <a href="https://www.facebook.com/robotbartender" target="_blank">Robot Bartender Facebook</a></p>
+                <p><strong>Instagram:</strong> <a href="https://www.instagram.com/robotbartender" target="_blank">Robot Bartender Instagram</a></p>
             </div>
         </section>
     </main>
@@ -58,8 +109,34 @@
     <footer>
         <p id="footer-text">2025 Perfect Drink All Rights Reserved.</p>
     </footer>
-    
+
+    <script>
+        // Triggering fade-in effect on scroll
+        window.addEventListener('scroll', () => {
+            const elements = document.querySelectorAll('.fade-in');
+            const windowHeight = window.innerHeight;
+            elements.forEach((el) => {
+                const elementTop = el.getBoundingClientRect().top;
+                if (elementTop < windowHeight - 100) {
+                    el.classList.add('visible');
+                }
+            });
+        });
+    </script>
+
     <style>
+        /* การแสดงผลแบบ Fade-in */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 1s ease-out, transform 1s ease-out;
+        }
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* สไตล์พื้นฐาน */
         body {
             font-family: Arial, sans-serif;
             background-color: #eef3f7;
@@ -92,12 +169,6 @@
             color: white;
             text-decoration: none;
         }
-        .language-switch button {
-            margin-left: 10px;
-            padding: 5px 10px;
-            border: none;
-            cursor: pointer;
-        }
         .hero {
             display: flex;
             justify-content: space-between;
@@ -113,20 +184,32 @@
             max-width: 100%;
             border-radius: 10px;
         }
-        .instructions, .drink-menu {
+        .instructions, .drink-menu, .team, .contact {
             padding: 20px;
         }
-        .menu-items {
-            display: flex;
-            justify-content: center;
+        .menu-items, .team-members {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
             gap: 20px;
         }
-        .drink-item {
-            background: #ddd;
-            padding: 15px;
-            border-radius: 10px;
+        .menu-item, .team-member {
+            background: #fff;
+            padding: 10px;
             text-align: center;
-            width: 100px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .menu-item img, .team-member img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        .menu-item:hover, .team-member:hover {
+            transform: scale(1.05);
+        }
+        .menu-item:hover img, .team-member:hover img {
+            transform: scale(1.1);
         }
         footer {
             text-align: center;
@@ -134,27 +217,22 @@
             color: white;
             padding: 10px;
         }
-        
+
+        /* สไตล์สำหรับช่องทางการติดต่อ */
+        .contact-info a {
+            color: #587792;
+            text-decoration: none;
+        }
+
         /* Responsive Styles */
         @media (max-width: 768px) {
-            header {
-                flex-direction: column;
-                align-items: flex-start;
+            .menu-items, .team-members {
+                grid-template-columns: repeat(2, 1fr);
             }
-            .hero {
-                flex-direction: column;
-                padding: 20px;
-            }
-            .hero-content, .hero-image {
-                max-width: 100%;
-                text-align: center;
-            }
-            .menu-items {
-                flex-direction: column;
-            }
-            .drink-item {
-                margin-bottom: 15px;
-                width: auto;
+        }
+        @media (max-width: 480px) {
+            .menu-items, .team-members {
+                grid-template-columns: 1fr;
             }
         }
     </style>
